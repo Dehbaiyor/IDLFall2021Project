@@ -1,0 +1,37 @@
+input,target,enc_dec_prediction,smooth_bleu
+"summarize: def get_courses_for_regid(self, regid, params={}):
+        """"""
+        
+        """"""
+        self._as_user = regid
+        data = self._get_resource(""/api/v1/courses"", params=params)
+        self._as_user = None
+
+        courses = []
+        for datum in data:
+            if ""sis_course_id"" in datum:
+                courses.append(CanvasCourse(data=datum))
+            else:
+                courses.append(self.get_course(datum[""id""], params))
+
+        return courses",Return a list of courses for the passed regid.,"s and for to the a an of from in_.].'].').'),'))'])()) )))))])]))]),],'],']']:]::]]()((_(( (destpathname1'2, default",12.344071904041611
+"summarize: def save_authorization_code(self, client_id, code, request,
+                                *args, **kwargs):
+        """"""""""""
+        log.debug(
+            'Persist authorization code %r for client %r',
+            code, client_id
+        )
+        request.client = request.client or self._clientgetter(client_id)
+        self._grantsetter(client_id, code, request, *args, **kwargs)
+        return request.client.default_redirect_uri",Persist the authorization code.,s the a an of to for and or from in_.2pathnameinfodebugwarningwarnerrorexceptionresultresultsfileslineslineaxis axis column featurefeatureedgeedgesGraphgraph graph G A K D Q H E M S,6.333577542432992
+"summarize: def instruction_list(self):
+        """"""
+        """"""
+        instruction_list = []
+        for instruction in self.data:
+            if isinstance(instruction, CompositeGate):
+                instruction_list.extend(instruction.instruction_list())
+            else:
+                instruction_list.append(instruction)
+        return instruction_list",Return a list of instructions for this CompositeGate.,"=. thename _ _ to allsr this an of((' ( on a not, andThe0 in or is from for Retrieve None self get str model methodzesCalculateRunssummarize through format c -",12.80934531837786
