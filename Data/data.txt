@@ -1,1 +1,4 @@
+https://www.kaggle.com/courageekoh/idl-project-code-encoder-set
+https://www.kaggle.com/gatakpa/chess-evaluation-dataset
+https://www.kaggle.com/oaadebay/gpt-finetune-chess-data
 https://drive.google.com/drive/folders/1Co-cj7jUynjWPj3r735icgdCfTvfnV6z?usp=sharing
