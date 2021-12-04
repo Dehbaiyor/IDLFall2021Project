@@ -8,8 +8,8 @@ input,target,gpt_prediction,mixed_model_prediction,gpt_smooth_bleu_score,mixed_m
         for font in self.fonts:
             obj = self.session._add_object()
             font._set_number(obj.id)
-            font._output()",Called by the PDFLite object to prompt creating,,,,,#DIV/0!,,31.69807846,28.95188289,,,Experiment A,Experiment B,Experiment C,Code T5 (Baseline)
-      the font objects.,self._output_font_files() This is an instance. If the font has no font is in the font.,24.01520166,19.52385211,,,#DIV/0!,,,,,Our Model,,31.64,28.9,20.36
+            font._output()",Called by the PDFLite object to prompt creating,,,,,#DIV/0!,,31.69807846,28.95188289,,,Set A,Set B,Set C,Baseline
+      the font objects.,self._output_font_files() This is an instance. If the font has no font is in the font.,24.01520166,19.52385211,,,#DIV/0!,,,,,BLEU,10.79,31.64,28.9,20.36
 "summarize: def get_courses_for_regid(self, regid, params={}):
         """"""
         
@@ -25,7 +25,7 @@ input,target,gpt_prediction,mixed_model_prediction,gpt_smooth_bleu_score,mixed_m
             else:
                 courses.append(self.get_course(datum[""id""], params))
 
-        return courses",Return a list of courses for the passed regid.,Returns the list of courses for the given regid,Return a list of courses for the given regid.,72.99308518,83.57771535,78.28540027,,,,,CodeT5 Baseline,,,,
+        return courses",Return a list of courses for the passed regid.,Returns the list of courses for the given regid,Return a list of courses for the given regid.,72.99308518,83.57771535,78.28540027,,,,,,,,,
 "summarize: def save_authorization_code(self, client_id, code, request,
                                 *args, **kwargs):
         """"""""""""

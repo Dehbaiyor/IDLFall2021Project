@@ -1,6 +1,6 @@
 input,target,gpt_prediction,mixed_model_prediction,gpt_smooth_bleu_score,mixed_model_smooth_bleu_score,,,,,,,,,,,,
 generate: Called by the PDFLite object to prompt creating,,,,,,#DIV/0!,,,31.40697183,30.8511134,,,,Experiment A,Experiment B,Experiment C,Code T5 (Baseline)
-generate: Returns a list of the pages that have,,,,,,#DIV/0!,,,,,,,BLEU,,31.37,30.81,41.48
+generate: Returns a list of the pages that have,,,,,,#DIV/0!,,,,,,,BLEU,11.42,31.37,30.81,41.48
 generate: Returns True if node_type == value.,"def is_type(self, value):
     """"""
     """"""
