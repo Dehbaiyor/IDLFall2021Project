@@ -1,4 +1,6 @@
 https://www.kaggle.com/dehbaiyor/gpt-finetuned-model
 https://www.kaggle.com/oaadebay/pretrained-model-gpt
 https://www.kaggle.com/courageekoh/code-to-docstring-finetune-encoder-decoder
+https://www.kaggle.com/thegraphics/docstring-to-code?scriptVersionId=81205226
 https://www.kaggle.com/gatakpa/chessevaluationmodel
+
